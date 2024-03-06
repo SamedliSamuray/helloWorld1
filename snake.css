@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&family=Marhey:wght@300..700&family=Permanent+Marker&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none;
+}
+.back{
+    background-image: url(https://i.pinimg.com/originals/99/ee/4c/99ee4c5b0590afe0460a6a9499923cdb.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Exo 2", sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+.snake{
+font-family: serif;
+padding-top: 200px;
+margin: auto;
+text-align: center;
+height: 100vh;
+width: 700px;
+
+}
+.snake h1{
+    font-family: "Marhey", sans-serif;
+    color: rgb(174, 144, 107);
+    text-align: center;
+    font-size: 50px;
+    text-transform:capitalize ;
+}
+.snake h2{
+    font-family: "Marhey", sans-serif;
+    color:antiquewhite;
+    font-size: 35px;
+    text-transform:capitalize ;
+}
+.snake p{
+    color:bisque;
+    font-size: 24px;
+    font-family: "Exo 2", sans-serif;
+}
+#ilan{
+    color:rgb(78, 48, 12);
+    text-shadow: 1px 1px 7px rgb(83, 49, 49);
+}
+button a{
+    color: white;
+}
+.snake button{ 
+    background-color:rgb(104, 79, 50);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 40px auto;
+    font-family: "Exo 2", sans-serif;
+    -moz-box-shadow: 1px 7px 90px 11px rgba(198,117,53,0.78);
+    -webkit-box-shadow: 1px 7px 90px 11px rgba(198,117,53,0.78);
+    box-shadow: 1px 7px 90px 11px rgba(198,117,53,0.78);
+}
+.back2{
+    background-color:bisque;
+    height: 100vh;
+    width: 100%;
+    font-family: "Exo 2", sans-serif;
+}
+.deri{
+margin:auto;
+padding: 30px 70px 30px 70px;
+height: 100vh;
+width: 100%;
+font-family: "Exo 2", sans-serif;
+}
+.back2h1{
+    text-align: center;
+    font-family: "Marhey", sans-serif;
+    color: rgb(65, 53, 53);
+    font-size: 50px;
+}
+.deri img{
+width: 700px;
+height: 400px;
+margin: 10px 100px 10px 350px;
+}
+
