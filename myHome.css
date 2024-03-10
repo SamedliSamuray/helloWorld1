@@ -269,28 +269,27 @@ color: var(--font-color);
     top: 0px;
     right: 0px;
     position: relative;
+    z-index: -1;
     }
-/*Buradan baslayaraq butun hamisini komentden cixardin. bunlardan sonra olan icon teqlerinin stilini ise komente alin.
-:checked atributu ile inputdan sonra gelen img-nin stilini deyiserek stil vermek olur. 2 sekili position ile ust iste getirib checkboxlarin(display:none) istifade ederek yer deyisdirmek olur. Ama tam yaxsi islemir
+/*Buradan baslayaraq butun hamisini komentden cixardin. Bunlardan sonra olan icon(#i1 #i2) teqlerinin stilini ve hoverini komente alin.
+:checked atributu ile inputdan sonra gelen img-nin stilini deyiserek stil vermek olur. 2 sekili position ile ust iste getirib checkboxlarin(display:none) istifade ederek yer deyisdirmek olur. 
  .photo img[alt="home2"]{
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 600px;
     top: 0px;
     right: 0px;
-    position: absolute;  
+    position: absolute;
+    z-index: -1;
 }
-#check1, #check2{
+#check1{
     position: absolute;
     display: none;
 }
 #check1:checked +img[alt="home"]{
-    z-index: -1;
-}
-#check2:checked +img[alt="home2"]{
-    z-index: -1;
+    z-index: 0;
 }
 
-label[for="check1"]{
+#label1{
     position: absolute;
     font-size: 40px;
     z-index: 1;
@@ -298,7 +297,7 @@ label[for="check1"]{
     left: 2px;
     color: white; 
 }
-label[for="check2"]{
+#label2{
     position: absolute;
     z-index: 1;
     font-size: 40px;
