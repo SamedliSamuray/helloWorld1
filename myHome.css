@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+:root{
+    --font-color:rgb(224, 203, 171);
+    --bg-color:rgb(137, 115, 88);
+}
+header{
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    top: 0px;
+    padding: 10px;
+
+}
+.logo p{
+    font-family:"Oleo Script", system-ui;
+    font-size: 26px;
+    position: absolute;
+    top: 70px;
+}
+.logo img{
+width: 100px;
+height: 100px;
+
+}
+.incognito{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+}
+.incognito img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 57px;
+    right: 19px;
+
+}
+
+.incognito i{
+        font-size: 30px;
+        position: relative;
+        top: 10px;
+        right: 10px;
+        color: rgb(50, 49, 49);
+        background-color:var(--font-color);
+        padding: 10px;
+        border-radius: 50%;
+        margin-right: 70px;
+
+    }
+.incognito i:hover{
+    background-color: white;
+}
+
+
+.option ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    font-family: "Dancing Script", cursive;
+    font-size: 27px;
+}
+.option ul a:link{
+color: var(--font-color);
+}
+.option ul a:visited{
+    color: var(--font-color);
+}
+.option ul a:hover{
+    color: white;
+}
+#sec1{
+    height: 100vh;
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+     width: 600px;
+    display: flex;
+    text-align: center;
+    font-family:"Oleo Script", system-ui;;
+    color: var(--font-color);
+    flex-flow: wrap column;
+    
+}
+.section1 h1{
+    font-size: 60px;
+}
+.section1 p{
+    font-size: 20px;
+}
+.section2{
+    height: 100vh;
+    color: rgb(68, 66, 64);
+    text-align: center;
+    padding: 30px 250px;
+    font-family:"Oleo Script", system-ui;
+    margin: 100px 0px;
+}
+.section2 h1{
+    font-size: 55px;
+}
+.section2 p{
+    font-size: 18px;
+}
+.products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+
+}
+
+
+.product{
+    margin: 20px;
+    width: 200px;
+    position: static;
+    border: 2px solid var(--font-color);
+    border-radius: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.product_img{
+    position: relative;
+}
+
+.product_img img{
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.hover{
+    border: 1px solid var(--font-color);
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(50, 50, 50);
+    background-color: var(--font-color);
+    display: flex;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.product_img i:hover{
+    color: red;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+}
+.buy button{
+    margin: 5px;
+    padding: 10px 20px;
+    background-color:rgb(68, 66, 64);
+    color:var(--font-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.buy button:hover{
+    background-color: var(--font-color);
+    color: rgb(68, 66, 64);
+}
+.section3{
+    background: linear-gradient(61deg, rgba(0, 0, 0, 0.481) 0%, rgba(1, 1, 1, 0.6699929971988796) 100%), url("https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oleo Script", system-ui;
+    color: var(--font-color);
+}
+#blog h1{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+#blog p{
+    font-size: 18px;
+    font-family: "Oleo Script", system-ui;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px;
+}
+
+#lamb{
+    position: absolute;
+    z-index: -1;
+    width: 100px;
+    height: 120px;
+    top: 32px;
+    left: -33px;
+}
+#lamb2{
+    position: absolute;
+    z-index: -1;
+    width: 40px;
+    height: 50px;
+    top: 40px;
+    left: 73px;
+}
+
+.about{
+    color: rgb(68, 66, 64);
+    width: 600px;
+    padding: 70px ;
+}
+.about h1{
+    font-family: "Oleo Script", system-ui;
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.about p{
+    font-family: "Oleo Script", system-ui;
+}
+.photo{
+    position: relative;
+}
+.photo img[alt="home"]{
+    width: 500px;
+    height: 600px;
+    top: 0px;
+    right: 0px;
+    position: relative;
+    }
+/*Buradan baslayaraq butun hamisini komentden cixardin. bunlardan sonra olan icon teqlerinin stilini ise komente alin.
+:checked atributu ile inputdan sonra gelen img-nin stilini deyiserek stil vermek olur. 2 sekili position ile ust iste getirib checkboxlarin(display:none) istifade ederek yer deyisdirmek olur. Ama tam yaxsi islemir
+ .photo img[alt="home2"]{
+    width: 400px;
+    height: 500px;
+    top: 0px;
+    right: 0px;
+    position: absolute;  
+}
+#check1, #check2{
+    position: absolute;
+    display: none;
+}
+#check1:checked +img[alt="home"]{
+    z-index: -1;
+}
+#check2:checked +img[alt="home2"]{
+    z-index: -1;
+}
+
+label[for="check1"]{
+    position: absolute;
+    font-size: 40px;
+    z-index: 1;
+    top: 50%;
+    left: 2px;
+    color: white; 
+}
+label[for="check2"]{
+    position: absolute;
+    z-index: 1;
+    font-size: 40px;
+    right: 2px;
+    top: 50%;
+    color: white;
+} */
+
+ #i1{
+        position: absolute;
+        font-size: 40px;
+        z-index: 1;
+        top: 50%;
+        left: 2px;
+        color: white;
+}
+#i2{
+    position: absolute;
+    z-index: 1;
+    font-size: 40px;
+    right: 2px;
+    top: 50%;
+    color: white;
+    }
+ #i1:hover{
+color: var(--bg-color);
+}
+#i2:hover{
+    color: var(--bg-color);
+    } 
+
+
+.contact{
+    background-color: var(--bg-color);
+    box-shadow: 1px 1px 1px var(--bg-color);
+    padding: 10px;
+    text-align: center;
+    color: var(--font-color);
+    font-family: "Poppins", sans-serif;
+ 
+}
+.contact ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
